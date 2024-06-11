@@ -6,6 +6,7 @@
 import { Card, CardContent } from "@/components/ui/card"
 import Link from "next/link"
 import { Separator } from "@/components/ui/separator"
+import Card1 from "../Card1/page"
 
 export default function Component() {
   return (
@@ -18,7 +19,11 @@ export default function Component() {
             detail.
           </p>
         </div>
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+
+        <Card1/>
+
+
+        {/* <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           <Card className="group overflow-hidden rounded-lg shadow-lg transition-all hover:shadow-xl">
             <Link href="#" className="block" prefetch={false}>
               <img
@@ -211,13 +216,15 @@ export default function Component() {
               </div>
             </CardContent>
           </Card>
-        </div>
+        </div> */}
+        <Card/>
       </div>
+
     </section>
   )
 }
 
-function GithubIcon(props) {
+function GithubIcon(props:any) {
   return (
     <svg
       {...props}
@@ -238,7 +245,7 @@ function GithubIcon(props) {
 }
 
 
-function LinkIcon(props) {
+function LinkIcon(props:any) {
   return (
     <svg
       {...props}
