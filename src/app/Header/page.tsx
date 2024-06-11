@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { SparklesCore } from "../../components/ui/sparkles"
+import Navbar from "../Navbar/page"
 
 export default function SparklesPreview() {
   return (
@@ -20,6 +21,7 @@ export default function SparklesPreview() {
       <h1 className="md:text-4xl text-3xl lg:text-4xl font-thin text-center text-neutral-900 relative z-20">
         SHuBHAM_MAuRyA_[]
       </h1>
+      <Navbar/>
     </div>
   );
 }
