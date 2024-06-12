@@ -23,7 +23,7 @@ export default function Home() {
           particleColor="#212529"
 
         />
-        MAYAVI
+        <h1 className="text-2xl font-thin  ">MAYAVI</h1>
         <Header />
         <Hero />
         <AboutMe />
