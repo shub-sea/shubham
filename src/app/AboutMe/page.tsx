@@ -3,9 +3,11 @@
  * @see https://v0.dev/t/P0GMQE8IWx3
  * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
  */
+import { Meteors } from "@/components/ui/meteors";
 export default function page() {
   return (
     <section className="w-full  rounded-md py-12 md:py-24 lg:py-32  dark:bg-gray-800">
+       
       <div className="container px-4 md:px-6 grid gap-10 lg:grid-cols-2 lg:gap-16">
         <div className="space-y-6">
           <div className="space-y-2">
@@ -15,6 +17,7 @@ export default function page() {
             </p>
           </div>
           <div className="space-y-4">
+          
             <p>
               Hi there! I'm Jane, a passionate web developer with a deep love for creating beautiful and functional
               digital experiences. My journey in tech began when I was just a kid, tinkering with computers and
