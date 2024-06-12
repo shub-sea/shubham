@@ -23,6 +23,7 @@ export default function Home() {
           particleColor="#212529"
 
         />
+        MAYAVI
         <Header />
         <Hero />
         <AboutMe />
