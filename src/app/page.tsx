@@ -6,19 +6,20 @@ import Contact from "./Contact/page"
 import Sidebar from "./Sidebar/page"
 import Footer from "./Footer/page"
 import Header from "./Header/page"
+import { twMerge } from "tailwind-merge";
+import { TracingBeam } from "../components/ui/tracing-beam"
 export default function Home() {
   return (
-    <main className="flex min-h-screen  flex-col items-center justify-between p-8">
-
-      <Header />
-
-      <Hero />
-      <AboutMe />
-      <Projects />
-      <Contact />
-      {/* <Sidebar /> */}
-      <Footer />
-
-    </main>
+    <TracingBeam>
+      <main className="flex min-h-screen  flex-col items-center justify-between p-8">
+        <Header />
+        <Hero />
+        <AboutMe />
+        <Projects />
+        <Contact />
+        {/* <Sidebar /> */}
+        {/* <Footer /> */}
+      </main>
+    </TracingBeam>
   );
 }

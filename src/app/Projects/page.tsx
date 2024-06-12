@@ -7,11 +7,26 @@ import { Card, CardContent } from "@/components/ui/card"
 import Link from "next/link"
 import { Separator } from "@/components/ui/separator"
 import Card1 from "../Card1/page"
+import { Boxes } from "@/components/ui/background-boxes"
+import { cn } from "@/lib/utils"
 
 export default function Component() {
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32">
-      <div className="container grid gap-10 px-4 md:px-6">
+    <section className={cn("relative z-20 flex w-full overflow-hidden flex-col items-center bg-slate-300/10 justify-center rounded-lg ")}>
+      {/* <div className="h-96 relative w-full overflow-hidden bg-slate-300 flex flex-col items-center justify-center rounded-lg"> */}
+        {/* <div className="absolute inset-0 w-full h-full bg-slate-900 z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" /> */}
+        {/* <Boxes /> */}
+        {/* <h1 >
+        Tailwind is Awesome
+      </h1>
+      <p className="text-center mt-2 text-neutral-300 relative z-20">
+        Framer motion is the best animation library ngl
+      </p> */}
+      {/* </div> */}
+      <Boxes/>
+
+      <div className="container grid gap-10 px-4 md:px-6  " >
+
         <div className="space-y-3 text-center">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">My Projects</h2>
           <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
@@ -20,7 +35,7 @@ export default function Component() {
           </p>
         </div>
 
-        <Card1/>
+        <Card1 />
 
 
         {/* <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -217,14 +232,14 @@ export default function Component() {
             </CardContent>
           </Card>
         </div> */}
-        <Card/>
+        <Card />
       </div>
 
     </section>
   )
 }
 
-function GithubIcon(props:any) {
+function GithubIcon(props: any) {
   return (
     <svg
       {...props}
@@ -245,7 +260,7 @@ function GithubIcon(props:any) {
 }
 
 
-function LinkIcon(props:any) {
+function LinkIcon(props: any) {
   return (
     <svg
       {...props}

@@ -14,7 +14,7 @@ export default function SparklesPreview() {
           maxSize={1.4}
           particleDensity={100}
           className="w-full h-full"
-          particleColor="#06D6A0"
+          particleColor="#212529"
           
         />
       </div>

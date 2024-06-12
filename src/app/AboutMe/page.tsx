@@ -5,7 +5,7 @@
  */
 export default function page() {
     return (
-      <section className="w-full shadow-xl shadow-neutral-900/10 rounded-md py-12 md:py-24 lg:py-32  dark:bg-gray-800">
+      <section className="w-full  rounded-md py-12 md:py-24 lg:py-32  dark:bg-gray-800">
         <div className="container px-4 md:px-6 grid gap-10 lg:grid-cols-2 lg:gap-16">
           <div className="space-y-6">
             <div className="space-y-2">
