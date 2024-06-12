@@ -5,12 +5,12 @@ import Navbar from "../Navbar/page"
 
 export default function SparklesPreview() {
   return (
-    <div className="h-[20rem] shadow-xl shadow-neutral-900/10 relative w-full bg-teal-750/50 flex flex-col items-center justify-center overflow-hidden rounded-md">
+    <div className="h-[20rem] shadow-sm shadow-neutral-900/10 relative w-full bg-teal-750/50 flex flex-col items-center justify-center overflow-hidden rounded-md">
       <div className="w-full absolute inset-0 h-screen">
         <SparklesCore
           id="tsparticlesfullpage"
           background="transparent"
-          minSize={35.2}
+          minSize={3.2}
           maxSize={1.4}
           particleDensity={100}
           className="w-full h-full"
