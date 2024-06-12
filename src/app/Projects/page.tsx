@@ -12,18 +12,18 @@ import { cn } from "@/lib/utils"
 
 export default function Component() {
   return (
-    <section className={cn("relative z-20 flex w-full overflow-hidden flex-col items-center bg-slate-300/10 justify-center rounded-lg ")}>
+    <section className={cn("relative z-20 flex  w-full overflow-hidden  items-center bg-slate-300/10 justify-center rounded-lg ")}>
       {/* <div className="h-96 relative w-full overflow-hidden bg-slate-300 flex flex-col items-center justify-center rounded-lg"> */}
-        {/* <div className="absolute inset-0 w-full h-full bg-slate-900 z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" /> */}
-        {/* <Boxes /> */}
-        {/* <h1 >
+      {/* <div className="absolute inset-0 w-full h-full bg-slate-900 z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" /> */}
+      {/* <Boxes /> */}
+      {/* <h1 >
         Tailwind is Awesome
       </h1>
       <p className="text-center mt-2 text-neutral-300 relative z-20">
         Framer motion is the best animation library ngl
       </p> */}
       {/* </div> */}
-      <Boxes/>
+      <Boxes />
 
       <div className="container grid gap-10 px-4 md:px-6  " >
 
@@ -35,7 +35,14 @@ export default function Component() {
           </p>
         </div>
 
+        <div className="grid grid-cols-2 gap-4 p-10">
         <Card1 />
+        <Card1 />
+        <Card1 />
+        <Card1 />
+        </div>
+
+        
 
 
         {/* <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -232,7 +239,7 @@ export default function Component() {
             </CardContent>
           </Card>
         </div> */}
-        <Card />
+        {/* <Card /> */}
       </div>
 
     </section>

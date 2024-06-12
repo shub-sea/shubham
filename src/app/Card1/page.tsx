@@ -25,8 +25,8 @@ export default function ThreeDCardDemo() {
         <CardItem translateZ="100" className="w-full mt-4">
           <Image
             src={any}
-            width={1000}
-            height={1000}
+            width={600}
+            height={600}
             alt="Picture of the author"
             className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
           />

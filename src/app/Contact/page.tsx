@@ -8,7 +8,7 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
-
+import Dharti from "../Dharti/page"
 export default function Component() {
   return (
     <section className="w-full py-12 md:py-24 lg:py-32">
@@ -64,6 +64,7 @@ export default function Component() {
           </div>
         </div>
       </div>
+      <Dharti/>
     </section>
   )
 }
