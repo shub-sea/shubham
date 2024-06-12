@@ -4,9 +4,11 @@
  * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
  */
 import Link from "next/link"
-
+import Daynight from "../Daynight/page"
 export default function Component() {
   return (
+    <>
+    
     <section className="w-full py-12 p-5 md:py-24  lg:py-32">
       <div className="container grid items-center  justify-center gap-8 px-4 md:px-6 lg:grid-cols-2 lg:gap-12">
         <img
@@ -35,5 +37,7 @@ export default function Component() {
         </div>
       </div>
     </section>
+    
+    </>
   )
 }

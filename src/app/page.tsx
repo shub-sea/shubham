@@ -11,7 +11,7 @@ import { TracingBeam } from "../components/ui/tracing-beam"
 export default function Home() {
   return (
     <TracingBeam>
-      <main className="flex min-h-screen  flex-col items-center justify-between p-8">
+      <main className="flex min-h-screen dark:-rotate-90 dark:scale-0 flex-col items-center justify-between p-8">
         <Header />
         <Hero />
         <AboutMe />
