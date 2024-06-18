@@ -22,7 +22,7 @@ export default function Component() {
         />
         <div className="space-y-4">
           <div className="space-y-2">
-            <h1 className="text-3xl font-bold tracking-tighter text-white sm:text-5xl md:text-6xl">Shubham Maurya</h1>
+            <h1 className="text-3xl font-bold tracking-tighter text-Black sm:text-5xl md:text-6xl">Shubham Maurya</h1>
             <p className="text-xl text-gray-500 underline dark:text-gray-400">Web Developer</p>
           </div>
           <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed dark:text-gray-400">
