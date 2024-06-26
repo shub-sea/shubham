@@ -34,7 +34,7 @@ export default function FloatingNavDemo() {
 }
 const DummyContent = () => {
   return (
-    <div className="grid grid-cols-1 h-[5rem] w-full    dark:bg-black relative  dark:border-white/[0.2] rounded-md">
+    <div className="grid grid-cols-1 h-2 w-full    dark:bg-black relative  dark:border-white/[0.2] rounded-md">
 
       <div className="inset-0 absolute bg-grid-black/[0.1] dark:bg-grid-white/[0.2]" />
       
